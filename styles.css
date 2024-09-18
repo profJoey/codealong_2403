@@ -1,0 +1,75 @@
+html, body {
+    height: auto;
+    width: auto;
+    margin: 0;
+    margin-top: 2rem;
+    margin-left: 2rem;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Lilita One", sans-serif;
+    font-weight: 400;
+    font-style: normal;    
+}
+h1{
+    display: flex;
+    flex-direction: column;
+}
+.good, .great {
+    font-size: 2rem;
+    line-height: 2rem;
+    color: red;  
+}
+.great {
+    align-self: flex-end;
+    color: black;
+}
+.obvious {
+    font-style: normal;
+    font-size: 8rem;
+    line-height: 2rem;
+    text-shadow: -10px -10px 1px red;
+}
+.transparent {
+    font-style: normal;
+    font-size: 8rem;
+    line-height: 0rem;
+}
+.transparent > span {
+    height: 0;
+}
+.transparent > span:nth-child(0) {
+    opacity: 1
+}
+.transparent > span:nth-child(1) {
+    opacity: 0.9
+}
+.transparent > span:nth-child(2) {
+    opacity: 0.8
+}
+.transparent > span:nth-child(3) {
+    opacity: 0.7
+}
+.transparent > span:nth-child(4) {
+    opacity: 0.6
+}
+.transparent > span:nth-child(5) {
+    opacity: 0.5
+}
+.transparent > span:nth-child(6) {
+    opacity: 0.4
+}
+.transparent > span:nth-child(7) {
+    opacity: 0.3
+}
+.transparent > span:nth-child(8) {
+    opacity: 0.2
+}
+.transparent > span:nth-child(9) {
+    opacity: 0.1
+}
+.transparent > span:nth-child(10) {
+    opacity: 0.07
+}
+.transparent > span:nth-child(11) {
+    opacity: 0.05
+}
