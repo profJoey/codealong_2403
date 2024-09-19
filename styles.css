@@ -16,23 +16,19 @@ html, body {
     flex-direction: column;
 }
 .good, .great {
-    font-size: 2rem;
-    line-height: 2rem;
+    font-size: 5vw;
+    line-height: 0;
     color: red;  
 }
 .great {
     color: black;
 }
-.obvious {
-    font-style: normal;
-    font-size: 8rem;
-    line-height: 2rem;
-    text-shadow: -10px -10px 1px red;
+.obvious, .transparent {
+    font-size: 10vw;
+    line-height: 3vw;
 }
-.transparent {
-    font-style: normal;
-    font-size: 8rem;
-    line-height: 0rem;
+.obvious {
+    text-shadow: -5px -5px 1px red;
 }
 .transparent > span {
     height: 0;
