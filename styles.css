@@ -18,7 +18,8 @@ html, body {
 .good, .great {
     font-size: 5vw;
     line-height: 0;
-    color: red;  
+    color: red; 
+    background-color: white; 
 }
 .great {
     color: black;
